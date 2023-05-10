@@ -72,7 +72,6 @@ class CustomWidget extends MaterialApp {
       child: Container(
         child: Column(
           children: [
-            const Text(""),
             Text(
               qoute,
               textAlign: TextAlign.left,
