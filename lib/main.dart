@@ -1,20 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:qouateapp/movies.dart';
 import 'home.dart';
+import 'movie_details.dart';
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(MyApp());
+}
 
+// ignore: must_be_immutable
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  Movies m = Movies("moviename", "imageurl", 2, "");
+  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+    m.insertingmoviesinlist();
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "Assignment 2",
-      theme: ThemeData(primarySwatch: Colors.blueGrey),
-      home: const Home(),
-    );
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+            primarySwatch: Colors.blue, canvasColor: Colors.transparent),
+        home: const Home(),
+        routes: {
+          '/moviedetails': (context) => MovieDetails(
+              movie: ModalRoute.of(context)?.settings.arguments as Movies),
+        });
   }
 }

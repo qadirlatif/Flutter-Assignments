@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   wheel_slider:
+  indexed: ^0.0.8
 
 
 dev_dependencies:
@@ -19,3 +20,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets: 
+  - assets/IMG_2440.JPG
