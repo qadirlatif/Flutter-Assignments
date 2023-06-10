@@ -41,7 +41,7 @@ class MovieDetailsDisplay extends StatelessWidget {
                 Row(
                   children: const [
                     Padding(
-                      padding: EdgeInsets.fromLTRB(18, 0, 0, 20),
+                      padding: EdgeInsets.fromLTRB(16, 0, 0, 20),
                       child: Text(
                         "Preview",
                         style: TextStyle(color: Colors.white),
@@ -50,7 +50,7 @@ class MovieDetailsDisplay extends StatelessWidget {
                   ],
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(0, 0, 18, 10),
+                  padding: const EdgeInsets.fromLTRB(0, 0, 16, 8),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: const [

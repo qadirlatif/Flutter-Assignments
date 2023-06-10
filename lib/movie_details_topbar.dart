@@ -10,7 +10,7 @@ class TopBarMovieDetails extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(18, 50, 0, 0),
+          padding: const EdgeInsets.fromLTRB(16, 48, 0, 0),
           child: CircleAvatar(
             backgroundColor: const Color.fromRGBO(107, 109, 108, 0.6),
             radius: 22,
@@ -22,7 +22,7 @@ class TopBarMovieDetails extends StatelessWidget {
           ),
         ),
         const Padding(
-          padding: EdgeInsets.fromLTRB(0, 50, 18, 0),
+          padding: EdgeInsets.fromLTRB(0, 48, 16, 0),
           child: CircleAvatar(
             radius: 22,
             backgroundColor: Color.fromRGBO(107, 109, 108, 0.6),

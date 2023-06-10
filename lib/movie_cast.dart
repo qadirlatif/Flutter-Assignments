@@ -12,7 +12,7 @@ class Cast extends StatelessWidget {
   };
   Widget profiles(String actorname, String movie) {
     return Padding(
-        padding: const EdgeInsets.fromLTRB(5, 0, 5, 0),
+        padding: const EdgeInsets.fromLTRB(4, 0, 4, 0),
         child: Column(
           children: [
             const CircleAvatar(
@@ -37,7 +37,7 @@ class Cast extends StatelessWidget {
     return SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(18, 0, 18, 0),
+          padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
           child: Row(
             children: [
               for (int i = 0; i < actorlist.length; i++)

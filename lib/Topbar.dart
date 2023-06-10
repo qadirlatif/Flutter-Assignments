@@ -11,7 +11,7 @@ class TopBar extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: const [
         Padding(
-          padding: EdgeInsets.fromLTRB(18, 50, 0, 0),
+          padding: EdgeInsets.fromLTRB(16, 48, 0, 0),
           child: CircleAvatar(
             radius: 22,
             backgroundImage: NetworkImage(
@@ -20,7 +20,7 @@ class TopBar extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.fromLTRB(0, 50, 18, 0),
+          padding: EdgeInsets.fromLTRB(0, 48, 16, 0),
           child: CircleAvatar(
             radius: 22,
             backgroundColor: Color.fromRGBO(107, 109, 108, 0.8),

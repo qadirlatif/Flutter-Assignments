@@ -34,7 +34,7 @@ class MovieDetails extends StatelessWidget {
                             MovieDetailsDisplay(movie: movie),
                             Description(movie: movie),
                             Padding(
-                              padding: const EdgeInsets.fromLTRB(18, 5, 0, 0),
+                              padding: const EdgeInsets.fromLTRB(16, 4, 0, 0),
                               child: Row(
                                 children: const [
                                   CircleAvatar(
@@ -47,7 +47,7 @@ class MovieDetails extends StatelessWidget {
                                     ),
                                   ),
                                   Padding(
-                                      padding: EdgeInsets.fromLTRB(0, 3, 7, 0)),
+                                      padding: EdgeInsets.fromLTRB(0, 4, 8, 0)),
                                   Text(
                                     "Most Liked",
                                     style: TextStyle(
@@ -60,7 +60,7 @@ class MovieDetails extends StatelessWidget {
                             ),
                             const Roundedbutton(),
                             Padding(
-                              padding: const EdgeInsets.fromLTRB(18, 5, 0, 3),
+                              padding: const EdgeInsets.fromLTRB(16, 4, 0, 4),
                               child: Row(
                                 children: const [
                                   Text("Prolog",
@@ -72,7 +72,7 @@ class MovieDetails extends StatelessWidget {
                               ),
                             ),
                             const Padding(
-                              padding: EdgeInsets.fromLTRB(18, 2, 25, 10),
+                              padding: EdgeInsets.fromLTRB(16, 4, 24, 8),
                               child: Text(
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                                 style: TextStyle(
@@ -82,7 +82,7 @@ class MovieDetails extends StatelessWidget {
                               ),
                             ),
                             Padding(
-                              padding: const EdgeInsets.fromLTRB(18, 5, 0, 4),
+                              padding: const EdgeInsets.fromLTRB(16, 4, 0, 4),
                               child: Row(
                                 children: const [
                                   Text("Top Cast",

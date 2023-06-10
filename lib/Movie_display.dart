@@ -63,7 +63,7 @@ class _Movie_displayState extends State<Movie_display> {
                     ],
                   ),
                 ),
-                const Padding(padding: EdgeInsets.fromLTRB(5, 0, 5, 0)),
+                const Padding(padding: EdgeInsets.fromLTRB(4, 0, 4, 0)),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/moviedetails',

@@ -44,14 +44,14 @@ class _HomeState extends State<Home> {
                         children: [
                           Movie_display(movie: current),
                           const Padding(
-                              padding: EdgeInsets.fromLTRB(0, 15, 0, 10)),
+                              padding: EdgeInsets.fromLTRB(0, 16, 0, 8)),
                           Label(label: "Trending Now"),
                           const Padding(
-                              padding: EdgeInsets.fromLTRB(0, 15, 0, 10)),
+                              padding: EdgeInsets.fromLTRB(0, 16, 0, 8)),
                           SingleChildScrollView(
                             scrollDirection: Axis.horizontal,
                             child: Padding(
-                              padding: const EdgeInsets.fromLTRB(18, 0, 0, 0),
+                              padding: const EdgeInsets.fromLTRB(16, 0, 0, 0),
                               child: Row(
                                 children: [
                                   for (int j = 0; j < m.Oldmovie.length; j++)
@@ -64,7 +64,7 @@ class _HomeState extends State<Home> {
                                       child: Container(
                                         height: 150,
                                         width: 110,
-                                        margin: const EdgeInsets.all(3),
+                                        margin: const EdgeInsets.all(4),
                                         color: Colors.black,
                                         child: ClipRRect(
                                           borderRadius:
@@ -83,14 +83,14 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                           const Padding(
-                              padding: EdgeInsets.fromLTRB(0, 10, 0, 10)),
+                              padding: EdgeInsets.fromLTRB(0, 16, 0, 8)),
                           Label(label: "Action Movies"),
                           const Padding(
-                              padding: EdgeInsets.fromLTRB(0, 15, 0, 10)),
+                              padding: EdgeInsets.fromLTRB(0, 16, 0, 8)),
                           SingleChildScrollView(
                             scrollDirection: Axis.horizontal,
                             child: Padding(
-                              padding: const EdgeInsets.fromLTRB(18, 0, 0, 0),
+                              padding: const EdgeInsets.fromLTRB(16, 0, 0, 0),
                               child: Row(
                                 children: [
                                   for (int j = 0;
@@ -105,7 +105,7 @@ class _HomeState extends State<Home> {
                                       child: Container(
                                         height: 150,
                                         width: 110,
-                                        margin: const EdgeInsets.all(3),
+                                        margin: const EdgeInsets.all(4),
                                         color: Colors.black,
                                         child: ClipRRect(
                                           borderRadius:
@@ -124,14 +124,14 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                           const Padding(
-                              padding: EdgeInsets.fromLTRB(0, 10, 0, 10)),
+                              padding: EdgeInsets.fromLTRB(0, 16, 0, 8)),
                           Label(label: "Latest Movies"),
                           const Padding(
-                              padding: EdgeInsets.fromLTRB(0, 15, 0, 10)),
+                              padding: EdgeInsets.fromLTRB(0, 16, 0, 8)),
                           SingleChildScrollView(
                             scrollDirection: Axis.horizontal,
                             child: Padding(
-                              padding: const EdgeInsets.fromLTRB(18, 0, 0, 0),
+                              padding: const EdgeInsets.fromLTRB(16, 0, 0, 0),
                               child: Row(
                                 children: [
                                   for (int j = 0;
@@ -146,7 +146,7 @@ class _HomeState extends State<Home> {
                                       child: Container(
                                         height: 150,
                                         width: 110,
-                                        margin: const EdgeInsets.all(3),
+                                        margin: const EdgeInsets.all(4),
                                         color: Colors.black,
                                         child: ClipRRect(
                                           borderRadius:

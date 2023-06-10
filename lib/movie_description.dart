@@ -8,7 +8,7 @@ class Description extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(18, 10, 0, 2),
+      padding: const EdgeInsets.fromLTRB(16, 8, 0, 4),
       child: Row(
         children: [
           const Text("95% match",
@@ -17,7 +17,7 @@ class Description extends StatelessWidget {
                   fontWeight: FontWeight.normal,
                   fontSize: 17)),
           Padding(
-            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+            padding: const EdgeInsets.fromLTRB(8, 0, 0, 0),
             child: Text(
               movie.releaseyear.toString(),
               style: const TextStyle(
@@ -25,7 +25,7 @@ class Description extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+            padding: const EdgeInsets.fromLTRB(8, 0, 0, 0),
             child: Text(
               movie.duration.toString(),
               style: const TextStyle(
@@ -33,7 +33,7 @@ class Description extends StatelessWidget {
             ),
           ),
           const Padding(
-            padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
+            padding: EdgeInsets.fromLTRB(8, 0, 0, 0),
             child: Text(
               "R",
               style:
@@ -41,7 +41,7 @@ class Description extends StatelessWidget {
             ),
           ),
           const Padding(
-            padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
+            padding: EdgeInsets.fromLTRB(8, 0, 0, 0),
             child: Text(
               "HD",
               style:
